@@ -1,0 +1,68 @@
+.content {
+  display: flex; 
+  align-items: flex-start; /* Align items to the top */
+  padding: 40px;
+  font-family: "DM Serif Text", serif;
+  background-color: #EEEEEE;
+}
+
+.content .welcome {
+  padding-right: 40px;
+  padding-top: 0px;
+}
+
+.content h1 {
+  color: #76885B;
+  font-size: 90px;
+}
+
+.content p {
+  color: #76885B;
+  font-size: 25px;
+}
+
+.content img {
+  width: 800px;
+  height: auto; 
+  padding-right: 50px; 
+  padding-top: 100px;
+}
+
+.services {
+  padding: 40px;
+  background-image: url('../assets/background.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  font-family: "DM Serif Text", serif;
+  color: #EEEEEE;
+}
+
+.services h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #79bc14;
+}
+
+.services p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-right: 750px;
+  font-family: "DM Serif Text", serif;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+  padding-right: 750px;
+  font-family: "DM Serif Text", serif;
+}
+
+.services ul li {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services ul li strong{
+  color: #79bc14;
+}

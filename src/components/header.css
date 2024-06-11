@@ -1,0 +1,49 @@
+.App-header {
+  background-color: #627254;
+  padding: 5px;
+  color: #EEEEEE;
+  padding-left: 40px;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.App-header h1 span {
+  font-size: 50px;
+}
+
+.header-right {
+  margin-left: auto;
+  margin-right: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-right p {
+  margin: 10px;
+}
+
+.header-right select {
+  margin-right: 20px;
+  margin-left: 30px;
+  height: 40px;
+  width: 280px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #627254;
+}
+
+.header-right button {
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #627254;
+  color: white;
+  border: 2px solid white;
+}
+
+.header-right button:hover {
+  transform: scale(1.1);
+  transform: 1s;
+  background-color: white;
+  color: #627254;
+}

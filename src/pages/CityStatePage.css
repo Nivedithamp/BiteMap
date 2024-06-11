@@ -1,0 +1,23 @@
+.city-state-page {
+  background-image: url('../assets/repeat.png');
+  background-repeat: repeat;
+}
+
+.city-state-page h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #627254;
+  font-family: "Poppins", sans-serif;
+}
+
+.city-state-page .back button{
+  margin-left: 80px;
+  height: 60px;
+  width: 250px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #627254;
+  color: white;
+  border: 2px solid white;
+}

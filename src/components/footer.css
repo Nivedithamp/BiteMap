@@ -1,0 +1,97 @@
+/* Message Styles */
+.message {
+  background-color: #dddddd;
+  text-align: center;
+  color: #76885b;
+  font-family: "Bellefair", serif;
+}
+
+.message h1 {
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+.message p {
+  font-size: 30px;
+}
+
+.message h2 {
+  font-size: 30px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.message form input {
+  border: none;
+  width: 680px;
+  height: 78px;
+  padding-left: 20px;
+  border-radius: 4px;
+  background: #eeeeee;
+  color: #76885b;
+  font-family: outfit;
+  font-size: 18px;
+}
+
+.message form textarea {
+  width: 650px;
+  border: none;
+  padding: 25px;
+  border-radius: 4px;
+  background: #eeeeee;
+  color: #76885b;
+  font-family: outfit;
+  font-size: 20px;
+}
+
+/* Submit Button Styles */
+.contact-submit {
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background-color: #76885b;
+  font-size: 22px;
+  padding: 20px 60px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Bellefair", serif;
+}
+
+.contact-submit:hover {
+  transform: scale(1.1);
+  background-color: #79bc14;
+}
+
+/* Footer Styles */
+.footer-bottom {
+  display: flex;
+  background-color: #76885b;
+  color: #eeeeee;
+  justify-content: space-between;
+  font-size: 25px; 
+  font-family: "Bellefair", serif;
+}
+
+.footer-bottom-left {
+  margin-left: 100px;
+}
+
+.footer-bottom-right {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+}
+
+.footer-bottom-right a {
+  text-decoration: none;
+  color: #eeeeee;
+}
